@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/logo_admin" />
+
+    <TextView
+        android:id="@+id/tv_admin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_admin"
+        android:gravity="center"
+        android:text="退出商户模式"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_logo"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_add_goods"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/shape_admin">
+                <ImageView
+                    android:id="@+id/iv_add_goods"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/add_good"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_add_goods"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:text="添加新商品"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/ll_browse_and_change_goods_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/shape_admin"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_browse_and_change_goods_info"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/change_good"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_browse_and_change_goods_info"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:text="查看及修改商品信息"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_delete_goods"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/shape_admin"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_delete_goods"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/delete_good"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_delete_goods"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:text="删除商品"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/ll_change_admin_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/shape_admin"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_change_admin_info"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/change_admin"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_change_admin_info"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:text="修改商户信息"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

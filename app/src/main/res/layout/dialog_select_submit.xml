@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="50dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="选择图片"
+        android:textColor="@color/AppColor"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tv_select_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_title"
+        android:gravity="center"
+        android:text="从相册中选取"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="@drawable/shape_pay"/>
+    <TextView
+        android:layout_below="@id/tv_select_gallery"
+        android:id="@+id/tv_select_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="拍摄照片"
+        android:textColor="#fff"
+        android:background="@drawable/shape_alpha_card"/>
+</RelativeLayout>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeConcreteList>
+	<typeConcrete type_concrete_id="1">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>棉衣</type_concrete_name>
+		<type_concrete_image>1棉衣1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="2">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>羽绒服</type_concrete_name>
+		<type_concrete_image>2羽绒服1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="3">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>休闲裤</type_concrete_name>
+		<type_concrete_image>3休闲裤1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="4">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>夹克</type_concrete_name>
+		<type_concrete_image>4夹克1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="5">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>卫衣</type_concrete_name>
+		<type_concrete_image>5卫衣1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="6">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>T恤</type_concrete_name>
+		<type_concrete_image>6T恤1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="7">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>牛仔裤</type_concrete_name>
+		<type_concrete_image>7牛仔裤1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="8">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>衬衫</type_concrete_name>
+		<type_concrete_image>8衬衫1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="9">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>西服</type_concrete_name>
+		<type_concrete_image>9西服1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="10">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>毛衣</type_concrete_name>
+		<type_concrete_image>10毛衣1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="11">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>短裤</type_concrete_name>
+		<type_concrete_image>11短裤1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="12">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>风衣</type_concrete_name>
+		<type_concrete_image>12风衣1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="13">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>沙滩裤</type_concrete_name>
+		<type_concrete_image>13沙滩裤1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="14">
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_name>马甲</type_concrete_name>
+		<type_concrete_image>14马甲1.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="15">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>连衣裙</type_concrete_name>
+		<type_concrete_image>15连衣裙2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="16">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>棉衣</type_concrete_name>
+		<type_concrete_image>16棉衣2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="17">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>羽绒服</type_concrete_name>
+		<type_concrete_image>17羽绒服2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="18">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>休闲裤</type_concrete_name>
+		<type_concrete_image>18休闲裤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="19">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>卫衣</type_concrete_name>
+		<type_concrete_image>19卫衣2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="20">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>T恤</type_concrete_name>
+		<type_concrete_image>20T恤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="21">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>牛仔裤</type_concrete_name>
+		<type_concrete_image>21牛仔裤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="22">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>衬衫</type_concrete_name>
+		<type_concrete_image>22衬衫2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="23">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>西服</type_concrete_name>
+		<type_concrete_image>23西服2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="24">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>毛衣</type_concrete_name>
+		<type_concrete_image>24毛衣2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="25">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>背带裙</type_concrete_name>
+		<type_concrete_image>25背带裙2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="26">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>短裤</type_concrete_name>
+		<type_concrete_image>26短裤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="27">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>皮草</type_concrete_name>
+		<type_concrete_image>27皮草2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="28">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>皮裤</type_concrete_name>
+		<type_concrete_image>28皮裤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="29">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>旗袍</type_concrete_name>
+		<type_concrete_image>29旗袍2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="30">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>打底衫</type_concrete_name>
+		<type_concrete_image>30打底衫2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="31">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>打底裤</type_concrete_name>
+		<type_concrete_image>31打底裤2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="32">
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_name>婚纱</type_concrete_name>
+		<type_concrete_image>32婚纱2.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="33">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>女士包袋</type_concrete_name>
+		<type_concrete_image>33女士包袋3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="34">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>双肩背包</type_concrete_name>
+		<type_concrete_image>34双肩背包3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="35">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>钱包</type_concrete_name>
+		<type_concrete_image>35钱包3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="36">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>男士包袋</type_concrete_name>
+		<type_concrete_image>36男士包袋3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="37">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>旅行箱</type_concrete_name>
+		<type_concrete_image>37旅行箱3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="38">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>旅行袋</type_concrete_name>
+		<type_concrete_image>38旅行袋3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="39">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>卡包</type_concrete_name>
+		<type_concrete_image>39卡包3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="40">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>钥匙包</type_concrete_name>
+		<type_concrete_image>40钥匙包3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="41">
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_name>证件包</type_concrete_name>
+		<type_concrete_image>41证件包3.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="42">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>衣架</type_concrete_name>
+		<type_concrete_image>42衣架4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="43">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>垃圾桶</type_concrete_name>
+		<type_concrete_image>43垃圾桶4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="44">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>收纳箱</type_concrete_name>
+		<type_concrete_image>44收纳箱4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="45">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>保温杯</type_concrete_name>
+		<type_concrete_image>45保温杯4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="46">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>挂钩</type_concrete_name>
+		<type_concrete_image>46挂钩4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="47">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>拖鞋</type_concrete_name>
+		<type_concrete_image>47拖鞋4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="48">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>雨伞</type_concrete_name>
+		<type_concrete_image>48雨伞4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="49">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>毛巾</type_concrete_name>
+		<type_concrete_image>49毛巾4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="50">
+		<type_generalize_id>4</type_generalize_id>
+		<type_concrete_name>浴巾</type_concrete_name>
+		<type_concrete_image>50浴巾4.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="51">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>养生壶</type_concrete_name>
+		<type_concrete_image>51养生壶5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="52">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>电饭煲</type_concrete_name>
+		<type_concrete_image>52电饭煲5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="53">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>洗衣机</type_concrete_name>
+		<type_concrete_image>53洗衣机5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="54">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>空调</type_concrete_name>
+		<type_concrete_image>54空调5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="55">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>油烟机</type_concrete_name>
+		<type_concrete_image>55油烟机5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="56">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>电视</type_concrete_name>
+		<type_concrete_image>56电视5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="57">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>热水器</type_concrete_name>
+		<type_concrete_image>57热水器5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="58">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>消毒柜</type_concrete_name>
+		<type_concrete_image>58消毒柜5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="59">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>冰箱</type_concrete_name>
+		<type_concrete_image>59冰箱5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="60">
+		<type_generalize_id>5</type_generalize_id>
+		<type_concrete_name>洗碗机</type_concrete_name>
+		<type_concrete_image>60洗碗机5.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="61">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>手机</type_concrete_name>
+		<type_concrete_image>61手机6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="62">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>笔记本电脑</type_concrete_name>
+		<type_concrete_image>62笔记本电脑6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="63">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>显示器</type_concrete_name>
+		<type_concrete_image>63显示器6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="64">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>键盘</type_concrete_name>
+		<type_concrete_image>64键盘6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="65">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>单反相机</type_concrete_name>
+		<type_concrete_image>65单反相机6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="66">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>拍立得</type_concrete_name>
+		<type_concrete_image>66拍立得6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="67">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>平板电脑</type_concrete_name>
+		<type_concrete_image>67平板电脑6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="68">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>台式机</type_concrete_name>
+		<type_concrete_image>68台式机6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="69">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>运动手环</type_concrete_name>
+		<type_concrete_image>69运动手环6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="70">
+		<type_generalize_id>6</type_generalize_id>
+		<type_concrete_name>摄像头</type_concrete_name>
+		<type_concrete_image>70摄像头6.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="71">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>扭扭车</type_concrete_name>
+		<type_concrete_image>71扭扭车7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="72">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>绘画工具</type_concrete_name>
+		<type_concrete_image>72绘画用品7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="73">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>电动童车</type_concrete_name>
+		<type_concrete_image>73电动童车7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="74">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>早教机</type_concrete_name>
+		<type_concrete_image>74早教机7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="75">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>奶瓶</type_concrete_name>
+		<type_concrete_image>75奶瓶7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="76">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>奶粉</type_concrete_name>
+		<type_concrete_image>76奶粉7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="77">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>纸尿裤</type_concrete_name>
+		<type_concrete_image>77纸尿裤7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="78">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>口水巾</type_concrete_name>
+		<type_concrete_image>78口水巾7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="79">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>婴儿车</type_concrete_name>
+		<type_concrete_image>79婴儿车7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="80">
+		<type_generalize_id>7</type_generalize_id>
+		<type_concrete_name>安全座椅</type_concrete_name>
+		<type_concrete_image>80安全座椅7.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="81">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>乳液</type_concrete_name>
+		<type_concrete_image>81乳液8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="82">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>洁面</type_concrete_name>
+		<type_concrete_image>82洁面8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="83">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>面膜</type_concrete_name>
+		<type_concrete_image>83面膜8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="84">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>眼霜</type_concrete_name>
+		<type_concrete_image>84眼霜8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="85">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>BB霜</type_concrete_name>
+		<type_concrete_image>85BB霜8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="86">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>口红</type_concrete_name>
+		<type_concrete_image>86口红8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="87">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>香水</type_concrete_name>
+		<type_concrete_image>87香水8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="88">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>眼影</type_concrete_name>
+		<type_concrete_image>88眼影8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="89">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>眼线</type_concrete_name>
+		<type_concrete_image>89眼线8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="90">
+		<type_generalize_id>8</type_generalize_id>
+		<type_concrete_name>睫毛膏</type_concrete_name>
+		<type_concrete_image>90睫毛膏8.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="91">
+		<type_generalize_id>9</type_generalize_id>
+		<type_concrete_name>Subcrew</type_concrete_name>
+		<type_concrete_image>91Subcrew9.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="92">
+		<type_generalize_id>9</type_generalize_id>
+		<type_concrete_name>RMBZ</type_concrete_name>
+		<type_concrete_image>92RMBZ9.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="93">
+		<type_generalize_id>9</type_generalize_id>
+		<type_concrete_name>DIESEL</type_concrete_name>
+		<type_concrete_image>93DIESEL9.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="94">
+		<type_generalize_id>9</type_generalize_id>
+		<type_concrete_name>Y-3</type_concrete_name>
+		<type_concrete_image>94Y-39.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="95">
+		<type_generalize_id>9</type_generalize_id>
+		<type_concrete_name>PaulFrank</type_concrete_name>
+		<type_concrete_image>95PaulFrank9.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="96">
+		<type_generalize_id>10</type_generalize_id>
+		<type_concrete_name>矿泉水</type_concrete_name>
+		<type_concrete_image>96矿泉水10.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="97">
+		<type_generalize_id>10</type_generalize_id>
+		<type_concrete_name>方便面</type_concrete_name>
+		<type_concrete_image>97方便面10.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="98">
+		<type_generalize_id>10</type_generalize_id>
+		<type_concrete_name>糖果</type_concrete_name>
+		<type_concrete_image>98糖果10.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="99">
+		<type_generalize_id>10</type_generalize_id>
+		<type_concrete_name>保健食品</type_concrete_name>
+		<type_concrete_image>99保健食品10.png</type_concrete_image>
+	</typeConcrete>
+	<typeConcrete type_concrete_id="100">
+		<type_generalize_id>10</type_generalize_id>
+		<type_concrete_name>白酒</type_concrete_name>
+		<type_concrete_image>100白酒10.png</type_concrete_image>
+	</typeConcrete>
+</TypeConcreteList>

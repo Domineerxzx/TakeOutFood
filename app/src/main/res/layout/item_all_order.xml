@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_white_card"
+    android:padding="20dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:id="@+id/tv_order_id"
+        android:text="订单编号："
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="@color/Gray"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:id="@+id/tv_order_id_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="@color/Gray"
+        android:layout_toRightOf="@id/tv_order_id"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:id="@+id/tv_order_state"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_pay"
+        android:textColor="@color/White"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <com.triplebro.domineer.takeoutfood.views.MyListView
+        android:id="@+id/lv_all_order_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_order_state">
+
+    </com.triplebro.domineer.takeoutfood.views.MyListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_sum"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/lv_all_order_item"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_count_price"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="8888"
+            android:textSize="18dp"
+            android:textColor="#ff0000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_unit"
+            android:layout_toLeftOf="@id/tv_count_price"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:text="￥"
+            android:textSize="18dp"
+            android:textColor="#ff0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合计："
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_toLeftOf="@id/tv_unit"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/rl_item_address_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_address_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domineer"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_address_name"
+                android:layout_marginTop="10dp"
+                android:text="大连外国语大学"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_address_postcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_address"
+                android:layout_marginTop="5dp"
+                android:text="116044"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt_change_address_info"
+            android:background="@drawable/shape_pay"
+            android:text="修改"
+            android:textSize="12dp"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"/>
+
+</RelativeLayout>

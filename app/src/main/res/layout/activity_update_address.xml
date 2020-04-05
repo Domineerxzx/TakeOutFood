@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_close_update_address"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="修改地址"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_toLeftOf="@id/iv_shopping_cart"
+            android:background="@mipmap/search_inside" />
+
+        <ImageView
+            android:id="@+id/iv_shopping_cart"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/shopping_cart" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#9dbebebe" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_add_address_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_address_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="名字："
+                    android:textColor="#454040"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:id="@+id/et_address_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/tv_address_name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/shape_count_down"
+                    android:hint="   请输入您的名字"
+                    android:inputType="text"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_address_area_city_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_address_name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="城市："
+                    android:textColor="#454040"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:id="@+id/et_address_area_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/tv_address_area_city_title"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/shape_count_down"
+                    android:gravity="center_vertical"
+                    android:hint="   城市"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_address_detailed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_address_area_city"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="地址："
+                    android:textColor="#454040"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:id="@+id/et_address_detailed"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/tv_address_detailed"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/shape_count_down"
+                    android:gravity="center_vertical"
+                    android:hint="   地址"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_address_postcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_address_detailed"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="邮编："
+                    android:textColor="#454040"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:id="@+id/et_address_postcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/tv_address_postcode"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/shape_count_down"
+                    android:gravity="center_vertical"
+                    android:hint="   邮编"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_address_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_address_postcode"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="电话："
+                    android:textColor="#454040"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:id="@+id/et_address_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/tv_address_telephone"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/shape_count_down"
+                    android:gravity="center_vertical"
+                    android:hint="   电话"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/bt_save_address"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/et_address_telephone"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/shape_pay"
+                    android:text="保存地址"
+                    android:textColor="#FFF"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

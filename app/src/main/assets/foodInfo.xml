@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoodInfoList>
+	<foodInfo food_id="1">
+		<food_name>棉衣男冬季加棉加厚潮牌外套</food_name>
+		<price>138</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-5.jpg</food_image>
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_id>1</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="2">
+		<food_name>吉普战车冬季短款棉衣男翻领羊羔绒毛</food_name>
+		<price>145</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5.jpg</food_image>
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_id>1</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="3">
+		<food_name>特大码棉衣男加大加肥冬季加棉外套</food_name>
+		<price>158</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-1.jpg</food_image>
+		<type_generalize_id>1</type_generalize_id>
+		<type_concrete_id>1</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="4">
+		<food_name>仙女裙chic温柔超仙少女学生法式lia</food_name>
+		<price>95</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-1.jpg</food_image>
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_id>15</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="5">
+		<food_name>仟佰秀19春季新款针织网纱连衣裙</food_name>
+		<price>103</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5-1.jpg</food_image>
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_id>15</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="6">
+		<food_name>2019春季新款韩版百褶连衣裙</food_name>
+		<price>119</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/6-4.jpg</food_image>
+		<type_generalize_id>2</type_generalize_id>
+		<type_concrete_id>15</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="7">
+		<food_name>小款头层牛皮抽带水桶包</food_name>
+		<price>650</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-5.jpg</food_image>
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_id>33</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="8">
+		<food_name>欧美时尚女包2019新款手提包</food_name>
+		<price>581</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-5.jpg</food_image>
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_id>33</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+	<foodInfo food_id="9">
+		<food_name>简佰格包包2017新款chibangba</food_name>
+		<price>199</price>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-2.jpg</food_image>
+		<type_generalize_id>3</type_generalize_id>
+		<type_concrete_id>33</type_concrete_id>
+		<phone_number>17709841369</phone_number>
+	</foodInfo>
+</FoodInfoList>

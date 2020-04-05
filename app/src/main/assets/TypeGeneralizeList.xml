@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeGeneralizeList>
+	<typeGeneralize type_generalize_id="1">
+		<type_generalize_name>男装</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="2">
+		<type_generalize_name>女装</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="3">
+		<type_generalize_name>箱包</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="4">
+		<type_generalize_name>生活用品</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="5">
+		<type_generalize_name>家电</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="6">
+		<type_generalize_name>电子科技</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="7">
+		<type_generalize_name>母婴</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="8">
+		<type_generalize_name>美妆</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="9">
+		<type_generalize_name>潮牌</type_generalize_name>
+	</typeGeneralize>
+	<typeGeneralize type_generalize_id="10">
+		<type_generalize_name>食品</type_generalize_name>
+	</typeGeneralize>
+</TypeGeneralizeList>

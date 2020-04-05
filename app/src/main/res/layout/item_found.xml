@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iv_user_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user_head_default"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_nickname"
+        android:text="Domineer"
+        android:layout_toRightOf="@id/iv_user_head"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/iv_share"
+        android:background="@mipmap/share"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/iv_share"
+        android:id="@+id/iv_collection"
+        android:background="@mipmap/collection"/>
+
+    <TextView
+        android:id="@+id/tv_found_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_user_head"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="askjdfjasdkfj;skadjf;ksjfsdjfs;kadjksdjaf;alsjdfkl;sajdfksdafj;aksjfskdljf;skjf;"
+        android:textSize="15dp"
+        android:textColor="#000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_found_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

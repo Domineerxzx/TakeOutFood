@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoodImageInfoList>
+	<foodImageInfo _id="1">
+		<food_id>1</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="2">
+		<food_id>1</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="3">
+		<food_id>1</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="4">
+		<food_id>1</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="5">
+		<food_id>1</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="6">
+		<food_id>2</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="7">
+		<food_id>2</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="8">
+		<food_id>2</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="9">
+		<food_id>2</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="10">
+		<food_id>2</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="11">
+		<food_id>3</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="12">
+		<food_id>3</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="13">
+		<food_id>3</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="14">
+		<food_id>3</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="15">
+		<food_id>3</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/3-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="16">
+		<food_id>4</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-2.png</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="17">
+		<food_id>4</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="18">
+		<food_id>4</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-4.png</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="19">
+		<food_id>4</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="20">
+		<food_id>4</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/4-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="21">
+		<food_id>5</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="22">
+		<food_id>5</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="23">
+		<food_id>5</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="24">
+		<food_id>5</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/5-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="25">
+		<food_id>6</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/6-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="26">
+		<food_id>6</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/6-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="27">
+		<food_id>6</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/6-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="28">
+		<food_id>6</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/6-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="29">
+		<food_id>7</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="30">
+		<food_id>7</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="31">
+		<food_id>7</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="32">
+		<food_id>7</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="33">
+		<food_id>7</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/7-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="34">
+		<food_id>8</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="35">
+		<food_id>8</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="36">
+		<food_id>8</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="37">
+		<food_id>8</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="38">
+		<food_id>8</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/8-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="39">
+		<food_id>9</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-1.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="40">
+		<food_id>9</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-5.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="41">
+		<food_id>9</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-3.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="42">
+		<food_id>9</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-4.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+	<foodImageInfo _id="43">
+		<food_id>9</food_id>
+		<food_image>/storage/emulated/0/DCIM/商品图片/9-2.jpg</food_image>
+		<phone_number>17709841369</phone_number>
+	</foodImageInfo>
+</FoodImageInfoList>

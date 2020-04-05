@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <com.triplebro.domineer.takeoutfood.views.MyScrollView
+        android:id="@+id/msv_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_user_head"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@color/AppColor">
+
+                <ImageView
+                    android:id="@+id/iv_close_user_info"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/back_alpha" />
+
+                <ImageView
+                    android:id="@+id/iv_user_head"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp" />
+
+                <TextView
+                    android:id="@+id/tv_nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/iv_user_head"
+                    android:layout_centerHorizontal="true"
+                    android:text="Domineer"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_nickname"
+                    android:layout_centerHorizontal="true"
+                    android:text="ID：374448535@qq.com"
+                    android:textColor="#fff"
+                    android:textSize="15dp" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_user_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_count_down"
+                android:gravity="center"
+                android:text="他 / 她 发 布 的"
+                android:textColor="@color/AppColor"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.triplebro.domineer.takeoutfood.views.MyListView
+                android:id="@+id/mlv_user_submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_user_submit"
+                android:layout_marginTop="10dp">
+
+            </com.triplebro.domineer.takeoutfood.views.MyListView>
+
+        </RelativeLayout>
+
+    </com.triplebro.domineer.takeoutfood.views.MyScrollView>
+
+</RelativeLayout>

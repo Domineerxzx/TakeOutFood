@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/rl_type_content">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/iv_type_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_type_content"
+        android:layout_below="@id/iv_type_content"
+        android:text="箱包"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tip"
+            android:textSize="12dp"
+            android:textColor="@color/AppColor"
+            android:text="请选择尺码及商品数量："/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_size_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_size"
+            android:textSize="12dp"
+            android:textColor="@color/line"
+            android:layout_below="@id/rv_size_bt"
+            android:layout_marginTop="20dp"
+            android:text="XXS号"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_food_count_title"
+            android:layout_toRightOf="@id/tv_size"
+            android:text="当前库存量："
+            android:layout_below="@id/rv_size_bt"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="@color/line"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_food_count"
+            android:text="10"
+            android:layout_below="@id/rv_size_bt"
+            android:layout_toRightOf="@id/tv_food_count_title"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="@color/line"/>
+
+        <Button
+            android:id="@+id/bt_count_up"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_count"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/up"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/bt_count_up"
+            android:background="@drawable/shape_count_down"
+            android:layout_alignBottom="@id/tv_add_count_title"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/bt_count_down"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@id/tv_count"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/tv_count"
+            android:background="@mipmap/down"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:id="@+id/tv_add_count_title"
+            android:text="您想要购买的商品数量："
+            android:layout_toLeftOf="@id/bt_count_down"
+            android:textSize="12dp"
+            android:textColor="@color/AppColor"
+            android:layout_below="@id/rv_size_bt"
+            android:layout_marginTop="40dp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:background="@drawable/shape_alpha_card"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_add_shopping_cart"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="加入到购物车"
+            android:background="@drawable/shape_pay"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

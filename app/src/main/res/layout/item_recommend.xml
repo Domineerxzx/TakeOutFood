@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_recommend"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/rl_recommend">
+
+    <ImageView
+        android:id="@+id/iv_recommend"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/photo_default" />
+
+    <TextView
+        android:id="@+id/tv_good_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/iv_recommend"
+        android:layout_alignRight="@id/iv_recommend"
+        android:layout_below="@id/iv_recommend"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:text="商品名称"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_good_name"
+        android:layout_marginTop="20dp"
+        android:text="￥"
+        android:textColor="#ff0000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_unit"
+        android:layout_toRightOf="@id/tv_unit"
+        android:text="8888"
+        android:textColor="#ff0000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bt_collection"
+        android:layout_alignBottom="@id/tv_price"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/collection"/>
+
+</RelativeLayout>

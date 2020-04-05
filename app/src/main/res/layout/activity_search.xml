@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_close_search"
+            android:background="@mipmap/back"
+            android:layout_marginLeft="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_alpha_card"
+            android:layout_toRightOf="@id/iv_close_search"
+            android:focusable="true"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="true"
+            android:layout_marginLeft="10dp">
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="#0000"
+                android:hint="请输入想要购买的商品名称或类别"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="12dp"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <com.triplebro.domineer.takeoutfood.views.MyScrollView
+        android:id="@+id/msv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@id/rl_search">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/tv_recommend_search"
+                    android:text="为你推荐"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/AppColor"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_recommend_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_recommend_search">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/tv_history_title"
+                    android:layout_below="@id/rv_recommend_search"
+                    android:text="搜索历史"
+                    android:textSize="18dp"
+                    android:textColor="@color/AppColor"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_clear_history"
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:text="清空搜索历史"
+                    android:textColor="#fff"
+                    android:textSize="12dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignBottom="@id/tv_history_title"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_pay"/>
+
+                <com.triplebro.domineer.takeoutfood.views.MyListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_history_title"
+                    android:id="@+id/lv_history">
+
+                </com.triplebro.domineer.takeoutfood.views.MyListView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_no_history"
+                    android:layout_below="@id/tv_history_title"
+                    android:layout_marginTop="100dp"
+                    android:text="目前还没有搜索过商品，快去试试吧！"
+                    android:textSize="15dp"
+                    android:textColor="@color/AppColor"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:visibility="gone"/>
+
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_search_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <RelativeLayout
+                android:id="@+id/rl_no_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/close"
+                    android:id="@+id/iv_no_search"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="暂无此商品，请确认商品名称或类别后重新查询!"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/AppColor"
+                    android:layout_below="@+id/iv_no_search"
+                    android:layout_marginTop="80dp"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.triplebro.domineer.takeoutfood.views.MyScrollView>
+
+</RelativeLayout>

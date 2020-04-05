@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <com.triplebro.domineer.takeoutfood.views.MyScrollView
+        android:id="@+id/msv_food"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/rl_food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/iv_close_food_details"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/back_alpha" />
+
+            <ImageView
+                android:id="@+id/iv_share_food_details"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/share" />
+
+            <ImageView
+                android:id="@+id/iv_collection_food_details"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/iv_share_food_details"
+                android:background="@mipmap/collection" />
+
+            <com.youth.banner.Banner
+                android:id="@+id/bn_food"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_food_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/bn_food"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/tv_unit"
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="￥"
+                    android:textColor="#ff0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv_unit"
+                    android:text="8888.00"
+                    android:textColor="#ff0000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_food_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/tv_unit"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="jkasjfklasdfkl;jasdl;kjfasl;kdjf;alskdjf;laskdjf;alsdkfj"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/v_food_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_below="@id/tv_food_name"
+                    android:background="@color/AppBackground" />
+
+                <TextView
+                    android:id="@+id/tv_select_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/v_food_name"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="请选择尺寸及数量"
+                    android:textColor="@color/AppColor"
+                    android:textSize="12dp" />
+
+                <View
+                    android:id="@+id/v_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_below="@id/tv_select_size"
+                    android:background="@color/AppBackground" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_recommend_inside"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="为 你 推 荐"
+                android:textColor="@color/AppColor"
+                android:background="@drawable/shape_count_down"
+                android:gravity="center"
+                android:layout_below="@id/rl_food_info"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_recommend_inside"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_recommend_inside"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="0dp" />
+
+        </RelativeLayout>
+    </com.triplebro.domineer.takeoutfood.views.MyScrollView>
+    <LinearLayout
+        android:id="@+id/rl_pay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_add_shopping_cart"
+                android:text="加入购物车"
+                android:textColor="#fff"
+                android:background="@color/AppColor"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

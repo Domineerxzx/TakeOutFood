@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoodSizeInfoList>
+	<foodSizeInfo _id="1">
+		<food_id>1</food_id>
+		<size_name>M</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="2">
+		<food_id>2</food_id>
+		<size_name>M</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="3">
+		<food_id>3</food_id>
+		<size_name>4XL</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="4">
+		<food_id>4</food_id>
+		<size_name>M</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="5">
+		<food_id>5</food_id>
+		<size_name>M</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="6">
+		<food_id>6</food_id>
+		<size_name>S</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="7">
+		<food_id>7</food_id>
+		<size_name>均码</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="8">
+		<food_id>8</food_id>
+		<size_name>白色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="9">
+		<food_id>8</food_id>
+		<size_name>红色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="10">
+		<food_id>8</food_id>
+		<size_name>黑色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="11">
+		<food_id>9</food_id>
+		<size_name>白色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="12">
+		<food_id>9</food_id>
+		<size_name>红色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+	<foodSizeInfo _id="13">
+		<food_id>9</food_id>
+		<size_name>黑色</size_name>
+		<size_count>50</size_count>
+		<phone_number>17709841369</phone_number>
+	</foodSizeInfo>
+</FoodSizeInfoList>
