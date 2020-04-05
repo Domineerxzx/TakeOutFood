@@ -2,45 +2,45 @@
 <TypeConcreteList>
 	<typeConcrete type_concrete_id="1">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>棉衣</type_concrete_name>
+		<type_concrete_name>面条</type_concrete_name>
 		<type_concrete_image>1棉衣1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="2">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>羽绒服</type_concrete_name>
+		<type_concrete_name>饺子</type_concrete_name>
 		<type_concrete_image>2羽绒服1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="3">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>休闲裤</type_concrete_name>
+		<type_concrete_name>包子</type_concrete_name>
 		<type_concrete_image>3休闲裤1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="4">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>夹克</type_concrete_name>
+		<type_concrete_name>汤</type_concrete_name>
 		<type_concrete_image>4夹克1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="5">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>卫衣</type_concrete_name>
+		<type_concrete_name>馅饼</type_concrete_name>
 		<type_concrete_image>5卫衣1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="6">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>T恤</type_concrete_name>
+		<type_concrete_name>炒菜</type_concrete_name>
 		<type_concrete_image>6T恤1.png</type_concrete_image>
 	</typeConcrete>
 	<typeConcrete type_concrete_id="7">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>牛仔裤</type_concrete_name>
+		<type_concrete_name>砂锅</type_concrete_name>
 		<type_concrete_image>7牛仔裤1.png</type_concrete_image>
 	</typeConcrete>
-	<typeConcrete type_concrete_id="8">
+	<!--<typeConcrete type_concrete_id="8">
 		<type_generalize_id>1</type_generalize_id>
-		<type_concrete_name>衬衫</type_concrete_name>
+		<type_concrete_name>饼</type_concrete_name>
 		<type_concrete_image>8衬衫1.png</type_concrete_image>
-	</typeConcrete>
-	<typeConcrete type_concrete_id="9">
+	</typeConcrete>-->
+	<!--<typeConcrete type_concrete_id="9">
 		<type_generalize_id>1</type_generalize_id>
 		<type_concrete_name>西服</type_concrete_name>
 		<type_concrete_image>9西服1.png</type_concrete_image>
@@ -499,5 +499,5 @@
 		<type_generalize_id>10</type_generalize_id>
 		<type_concrete_name>白酒</type_concrete_name>
 		<type_concrete_image>100白酒10.png</type_concrete_image>
-	</typeConcrete>
+	</typeConcrete>-->
 </TypeConcreteList>

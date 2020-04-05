@@ -171,7 +171,7 @@
                             android:id="@+id/tv_order_wait_send"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="待发货"
+                            android:text="待取餐"
                             android:textColor="#000"
                             android:textSize="12dp" />
 
@@ -358,7 +358,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:layout_toRightOf="@id/iv_collection_food"
-                            android:text="收藏的商品"
+                            android:text="收藏的美食"
                             android:textColor="#000"
                             android:textSize="12dp" />
 

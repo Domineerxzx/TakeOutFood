@@ -16,7 +16,7 @@
             android:id="@+id/tv_tip"
             android:textSize="12dp"
             android:textColor="@color/AppColor"
-            android:text="请选择尺码及商品数量："/>
+            android:text="请选择口味及商品数量："/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_size_bt"

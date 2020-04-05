@@ -135,28 +135,12 @@
                 android:layout_height="match_parent"/>
 
             <LinearLayout
-                android:id="@+id/ll_change_admin_info"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@drawable/shape_admin"
                 android:gravity="center">
 
-                <ImageView
-                    android:id="@+id/iv_change_admin_info"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:background="@mipmap/change_admin"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_change_admin_info"
-                    android:layout_marginTop="5dp"
-                    android:textSize="15dp"
-                    android:textColor="#fff"
-                    android:text="修改商户信息"/>
 
             </LinearLayout>
 

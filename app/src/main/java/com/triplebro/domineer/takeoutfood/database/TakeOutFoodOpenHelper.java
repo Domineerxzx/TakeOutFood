@@ -28,7 +28,7 @@ public class TakeOutFoodOpenHelper extends SQLiteOpenHelper {
         db.execSQL("create table foodImageInfo(_id Integer primary key autoincrement,food_id Integer,food_image varchar(200),phone_number varchar(20)," +
                 "FOREIGN KEY (food_id) REFERENCES foodInfo(food_id)," +
                 "FOREIGN KEY (phone_number) REFERENCES adminInfo(phone_number))");
-        //商品尺码/库存表
+        //商品口味/库存表
         db.execSQL("create table foodSizeInfo(_id Integer primary key autoincrement,food_id Integer,size_name varchar(20),size_count number,phone_number varchar(20)," +
                 "FOREIGN KEY (food_id) REFERENCES foodInfo(food_id)," +
                 "FOREIGN KEY (phone_number) REFERENCES adminInfo(phone_number))");

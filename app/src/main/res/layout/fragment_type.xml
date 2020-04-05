@@ -15,21 +15,11 @@ android:layout_height="match_parent">
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
-        <ImageView
-            android:id="@+id/iv_scan"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="5dp"
-            android:background="@mipmap/scan" />
-
         <RelativeLayout
             android:id="@+id/rl_search"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@id/iv_scan"
             android:background="@drawable/shape_alpha_card"
             android:focusable="true"
             android:focusableInTouchMode="true" >

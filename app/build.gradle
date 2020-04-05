@@ -43,4 +43,5 @@ dependencies {
     implementation 'com.zhy:okhttputils:2.6.2'
     implementation 'com.alibaba:fastjson:1.2.47'
     implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    implementation'com.tencent.map.geolocation:TencentLocationSdk-openplatform:7.2.4'
 }

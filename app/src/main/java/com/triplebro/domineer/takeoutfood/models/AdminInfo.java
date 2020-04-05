@@ -1,12 +1,14 @@
 package com.triplebro.domineer.takeoutfood.models;
 
+import java.io.Serializable;
+
 /**
  * @author Domineer
  * @data 2019/3/24,1:14
  * ----------为梦想启航---------
  * --Set Sell For Your Dream--
  */
-public class AdminInfo {
+public class AdminInfo implements Serializable {
 
     private String phone_number;
     private String password;

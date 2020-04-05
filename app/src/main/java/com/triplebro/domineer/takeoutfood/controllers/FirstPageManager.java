@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 
+import com.triplebro.domineer.takeoutfood.models.AdminInfo;
 import com.triplebro.domineer.takeoutfood.models.FoodInfo;
 import com.triplebro.domineer.takeoutfood.service.NetworkConnectionService;
 import com.triplebro.domineer.takeoutfood.providers.DatabaseOP;
@@ -17,7 +18,7 @@ import java.util.Random;
 
 import cc.ibooker.zcountdownviewlib.CountDownView;
 
-public class FirstPageManager implements ServiceConnection {
+public class FirstPageManager {
 
     private Context context;
     private CountDownView countDownView;
@@ -73,22 +74,4 @@ public class FirstPageManager implements ServiceConnection {
         return functionFoodList;
     }
 
-    public void setCountDown(CountDownView countdownView) {
-        if (this.countDownView == null){
-            this.countDownView = countdownView;
-            Intent service = new Intent(context, NetworkConnectionService.class);
-            context.bindService(service, this, Context.BIND_AUTO_CREATE);
-        }
-    }
-
-    @Override
-    public void onServiceConnected(ComponentName name, IBinder service) {
-        NetworkConnectionService.MyBinder myBinder = (NetworkConnectionService.MyBinder) service;
-        myBinder.setCountDown(countDownView);
-    }
-
-    @Override
-    public void onServiceDisconnected(ComponentName name) {
-
-    }
 }

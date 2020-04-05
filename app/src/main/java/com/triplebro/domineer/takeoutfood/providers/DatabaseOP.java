@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.widget.Toast;
 
+import com.triplebro.domineer.takeoutfood.models.AdminInfo;
 import com.triplebro.domineer.takeoutfood.models.CollectionFoodInfo;
 import com.triplebro.domineer.takeoutfood.models.CollectionSubmitInfo;
 import com.triplebro.domineer.takeoutfood.models.FoodInfo;
@@ -850,5 +851,27 @@ public class DatabaseOP implements ISource {
         SQLiteDatabase db = takeOutFoodOpenHelper.getWritableDatabase();
         db.insert("foodSizeInfo", null, contentValues);
         db.close();
+    }
+
+    public List<AdminInfo> getAllShopInfo() {
+        TakeOutFoodOpenHelper takeOutFoodOpenHelper = new TakeOutFoodOpenHelper(context);
+        SQLiteDatabase db = takeOutFoodOpenHelper.getWritableDatabase();
+        List<AdminInfo> adminInfoList = new ArrayList<>();
+        Cursor adminInfoCursor = db.query("adminInfo", null, null, null, null, null, null);
+        if (adminInfoCursor != null && adminInfoCursor.getCount() > 0) {
+            while (adminInfoCursor.moveToNext()) {
+                AdminInfo adminInfo = new AdminInfo();
+                adminInfo.setPhone_number(adminInfoCursor.getString(0));
+                adminInfo.setPassword(adminInfoCursor.getString(1));
+                adminInfo.setNickname(adminInfoCursor.getString(2));
+                adminInfo.setUser_head(adminInfoCursor.getString(3));
+                adminInfoList.add(adminInfo);
+            }
+        }
+        if (adminInfoCursor != null) {
+            adminInfoCursor.close();
+        }
+        db.close();
+        return adminInfoList;
     }
 }

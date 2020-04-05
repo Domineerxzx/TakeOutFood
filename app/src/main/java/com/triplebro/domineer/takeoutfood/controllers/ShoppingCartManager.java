@@ -73,7 +73,7 @@ public class ShoppingCartManager {
             shoppingCartInfoCursor.close();
         }
         db.close();
-        this.tv_count_price.setText(String.valueOf(sum));
+        this.tv_count_price.setText(String.valueOf(sum+5));
     }
 
     public void clearShoppingCart(List<ShoppingCartInfo> shoppingCartInfoList) {

@@ -86,7 +86,7 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:id="@+id/ll_clothes"
+                        android:id="@+id/ll_chinese_food"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -95,17 +95,17 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/iv_clothes"
+                            android:id="@+id/iv_chinese_food"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@mipmap/clothes" />
+                            android:src="@mipmap/chinese_food" />
 
                         <TextView
-                            android:id="@+id/tv_clothes"
+                            android:id="@+id/tv_chinese_food"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="服饰"
+                            android:text="中餐"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -117,7 +117,7 @@
                         android:background="@color/line" />
 
                     <LinearLayout
-                        android:id="@+id/ll_bags"
+                        android:id="@+id/ll_dessert"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -126,17 +126,17 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/iv_bags"
+                            android:id="@+id/iv_dessert"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@mipmap/bags"/>
+                            android:src="@mipmap/dessert"/>
 
                         <TextView
-                            android:id="@+id/tv_bags"
+                            android:id="@+id/tv_dessert"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="箱包"
+                            android:text="甜品"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -148,7 +148,7 @@
                         android:background="@color/line" />
 
                     <LinearLayout
-                        android:id="@+id/ll_household"
+                        android:id="@+id/ll_snacks"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -157,17 +157,17 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/iv_household"
+                            android:id="@+id/iv_snacks"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@mipmap/household" />
+                            android:src="@mipmap/snacks" />
 
                         <TextView
-                            android:id="@+id/tv_household"
+                            android:id="@+id/tv_snacks"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="家电"
+                            android:text="零食"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -179,7 +179,7 @@
                         android:background="@color/line" />
 
                     <LinearLayout
-                        android:id="@+id/ll_technology"
+                        android:id="@+id/ll_fast_food"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -188,17 +188,17 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/iv_technology"
+                            android:id="@+id/iv_fast_food"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@mipmap/technology" />
+                            android:src="@mipmap/fast_food" />
 
                         <TextView
-                            android:id="@+id/tv_technology"
+                            android:id="@+id/tv_fast_food"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="科技"
+                            android:text="快餐"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -220,6 +220,68 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:id="@+id/ll_flower"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_flower"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@mipmap/flower" />
+
+                        <TextView
+                            android:id="@+id/tv_flower"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="鲜花"
+                            android:textColor="#000"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_fresh"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_fresh"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@mipmap/fresh"/>
+
+                        <TextView
+                            android:id="@+id/tv_fresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="生鲜"
+                            android:textColor="#000"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/line" />
+
+                    <LinearLayout
                         android:id="@+id/ll_life"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -239,7 +301,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="生活"
+                            android:text="生活用品"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -251,7 +313,7 @@
                         android:background="@color/line" />
 
                     <LinearLayout
-                        android:id="@+id/ll_mother_and_baby"
+                        android:id="@+id/ll_medical"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -260,79 +322,17 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/iv_mother_and_baby"
+                            android:id="@+id/iv_medical"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@mipmap/mother_and_baby"/>
+                            android:src="@mipmap/medical" />
 
                         <TextView
-                            android:id="@+id/tv_mother_and_baby"
+                            android:id="@+id/tv_medical"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="母婴"
-                            android:textColor="#000"
-                            android:textSize="10dp" />
-
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="1dp"
-                        android:layout_height="match_parent"
-                        android:background="@color/line" />
-
-                    <LinearLayout
-                        android:id="@+id/ll_beauty_make_up"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/iv_beauty_make_up"
-                            android:layout_width="45dp"
-                            android:layout_height="45dp"
-                            android:src="@mipmap/beauty_make_up" />
-
-                        <TextView
-                            android:id="@+id/tv_beauty_make_up"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="美妆"
-                            android:textColor="#000"
-                            android:textSize="10dp" />
-
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="1dp"
-                        android:layout_height="match_parent"
-                        android:background="@color/line" />
-
-                    <LinearLayout
-                        android:id="@+id/ll_tide_card"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/iv_tide_card"
-                            android:layout_width="45dp"
-                            android:layout_height="45dp"
-                            android:src="@mipmap/tide_card" />
-
-                        <TextView
-                            android:id="@+id/tv_tide_card"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="潮牌"
+                            android:text="医药"
                             android:textColor="#000"
                             android:textSize="10dp" />
 
@@ -341,7 +341,7 @@
                 </LinearLayout>
             </RelativeLayout>
 
-            <RelativeLayout
+            <!--<RelativeLayout
                 android:id="@+id/rl_characteristic"
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
@@ -561,7 +561,7 @@
                         android:background="@mipmap/photo_default"
                         android:scaleType="centerCrop"/>
                 </RelativeLayout>
-            </RelativeLayout>
+            </RelativeLayout>-->
 
             <TextView
                 android:layout_width="match_parent"
@@ -570,7 +570,7 @@
                 android:text="为 你 推 荐"
                 android:textColor="@color/AppColor"
                 android:textSize="15dp"
-                android:layout_below="@id/rl_characteristic"
+                android:layout_below="@id/ll_navigation"
                 android:gravity="center"
                 android:background="@drawable/shape_count_down"
                 android:layout_marginLeft="20dp"
@@ -585,6 +585,14 @@
                 android:layout_margin="10dp">
 
             </android.support.v7.widget.RecyclerView>
+
+            <!--<com.triplebro.domineer.takeoutfood.views.MyListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mlv_shop"
+                android:layout_below="@id/tv_recommend">
+
+            </com.triplebro.domineer.takeoutfood.views.MyListView>-->
 
             <TextView
                 android:id="@+id/tv_ending"
