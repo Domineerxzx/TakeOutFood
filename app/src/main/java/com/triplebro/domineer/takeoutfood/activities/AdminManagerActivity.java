@@ -46,15 +46,12 @@ public class AdminManagerActivity extends Activity implements View.OnClickListen
         ll_add_goods.setOnClickListener(this);
         ll_browse_and_change_goods_info.setOnClickListener(this);
         ll_delete_goods.setOnClickListener(this);
-        ll_change_admin_info.setOnClickListener(this);
         tv_add_goods.setOnClickListener(this);
         tv_browse_and_change_goods_info.setOnClickListener(this);
         tv_delete_goods.setOnClickListener(this);
-        tv_change_admin_info.setOnClickListener(this);
         iv_add_goods.setOnClickListener(this);
         iv_browse_and_change_goods_info.setOnClickListener(this);
         iv_delete_goods.setOnClickListener(this);
-        iv_change_admin_info.setOnClickListener(this);
     }
 
     private void initView() {
@@ -62,15 +59,12 @@ public class AdminManagerActivity extends Activity implements View.OnClickListen
         ll_add_goods = (LinearLayout) findViewById(R.id.ll_add_goods);
         ll_browse_and_change_goods_info = (LinearLayout) findViewById(R.id.ll_browse_and_change_goods_info);
         ll_delete_goods = (LinearLayout) findViewById(R.id.ll_delete_goods);
-        ll_change_admin_info = (LinearLayout) findViewById(R.id.ll_change_admin_info);
         tv_add_goods = (TextView) findViewById(R.id.tv_add_goods);
         tv_browse_and_change_goods_info = (TextView) findViewById(R.id.tv_browse_and_change_goods_info);
         tv_delete_goods = (TextView) findViewById(R.id.tv_delete_goods);
-        tv_change_admin_info = (TextView) findViewById(R.id.tv_change_admin_info);
         iv_add_goods = (ImageView) findViewById(R.id.iv_add_goods);
         iv_browse_and_change_goods_info = (ImageView) findViewById(R.id.iv_browse_and_change_goods_info);
         iv_delete_goods = (ImageView) findViewById(R.id.iv_delete_goods);
-        iv_change_admin_info = (ImageView) findViewById(R.id.iv_change_admin_info);
     }
 
     @Override
@@ -96,10 +90,6 @@ public class AdminManagerActivity extends Activity implements View.OnClickListen
             case R.id.iv_delete_goods:
                 Intent deleteFood = new Intent(this, DeleteFoodActivity.class);
                 startActivity(deleteFood);
-                break;
-            case R.id.ll_change_admin_info:
-            case R.id.tv_change_admin_info:
-            case R.id.iv_change_admin_info:
                 break;
         }
     }

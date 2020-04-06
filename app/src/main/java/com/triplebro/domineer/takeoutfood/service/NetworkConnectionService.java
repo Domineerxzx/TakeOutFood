@@ -77,15 +77,26 @@ public class NetworkConnectionService extends Service {
 
     private void register(final Context context, final String phone_number, /*String request_code,*/ final String password, final String nickname, final ServiceConnection serviceConnection, final int userType) {
         final RegisterHandler registerHandler = new RegisterHandler(context, serviceConnection);
+        if(userType == ProjectProperties.ADMIN){
+            updateRegisterInfo(context, phone_number, password, nickname, serviceConnection, registerHandler, userType);
+            TakeOutFoodOpenHelper takeOutFoodOpenHelper = new TakeOutFoodOpenHelper(context);
+            SQLiteDatabase writableDatabase = takeOutFoodOpenHelper.getWritableDatabase();
+            ContentValues contentValues = new ContentValues();
+            contentValues.put("phone_number", phone_number);
+            contentValues.put("password", password);
+            contentValues.put("nickname", nickname);
+            writableDatabase.insert("adminInfo", null, contentValues);
+        }else{
+            updateRegisterInfo(context, phone_number, password, nickname, serviceConnection, registerHandler, userType);
+            TakeOutFoodOpenHelper takeOutFoodOpenHelper = new TakeOutFoodOpenHelper(context);
+            SQLiteDatabase writableDatabase = takeOutFoodOpenHelper.getWritableDatabase();
+            ContentValues contentValues = new ContentValues();
+            contentValues.put("phone_number", phone_number);
+            contentValues.put("password", password);
+            contentValues.put("nickname", nickname);
+            writableDatabase.insert("userInfo", null, contentValues);
+        }
 
-        updateRegisterInfo(context, phone_number, password, nickname, serviceConnection, registerHandler, userType);
-        TakeOutFoodOpenHelper takeOutFoodOpenHelper = new TakeOutFoodOpenHelper(context);
-        SQLiteDatabase writableDatabase = takeOutFoodOpenHelper.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("phone_number", phone_number);
-        contentValues.put("password", password);
-        contentValues.put("nickname", nickname);
-        writableDatabase.insert("adminInfo", null, contentValues);
 
     }
 

@@ -95,14 +95,11 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
                 phone_number = et_phone_number.getText().toString();
                 password = et_password.getText().toString();
                 username = et_username.getText().toString();
-                request_code = et_request_code.getText().toString();
                 phone_number = et_phone_number.getText().toString();
                 if (username.length() == 0) {
                     Toast.makeText(this, "用户名不能为空", Toast.LENGTH_SHORT).show();
                 } else if (phone_number.length() != 11) {
                     Toast.makeText(this, "手机号有误", Toast.LENGTH_SHORT).show();
-                } else if (request_code.length() != 4) {
-                    Toast.makeText(this, "验证码不能少于4位数", Toast.LENGTH_SHORT).show();
                 } else if (password.length() == 0) {
                     Toast.makeText(this, "密码不能为空", Toast.LENGTH_SHORT).show();
                 } else if (!cb_agree.isChecked()) {

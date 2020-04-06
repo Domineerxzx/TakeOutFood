@@ -58,7 +58,6 @@ public class TypeFragment extends Fragment implements AdapterView.OnItemClickLis
         rl_search.setOnClickListener(this);
         iv_search.setOnClickListener(this);
         tv_search.setOnClickListener(this);
-        iv_scan.setOnClickListener(this);
     }
 
     private void initData() {
@@ -86,7 +85,6 @@ public class TypeFragment extends Fragment implements AdapterView.OnItemClickLis
         rl_search = (RelativeLayout) fragment_type.findViewById(R.id.rl_search);
         iv_search = (ImageView) fragment_type.findViewById(R.id.iv_search);
         tv_search = (TextView) fragment_type.findViewById(R.id.tv_search);
-        iv_scan = (ImageView) fragment_type.findViewById(R.id.iv_scan);
     }
 
     @SuppressLint("ResourceAsColor")
@@ -120,9 +118,6 @@ public class TypeFragment extends Fragment implements AdapterView.OnItemClickLis
             case R.id.tv_search:
                 Intent search = new Intent(getActivity(), SearchActivity.class);
                 startActivity(search);
-                break;
-            case R.id.iv_scan:
-                Toast.makeText(getActivity(), "此功能暂未开发完成", Toast.LENGTH_SHORT).show();
                 break;
         }
     }

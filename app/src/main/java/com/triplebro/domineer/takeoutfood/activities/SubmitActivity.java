@@ -51,6 +51,8 @@ public class SubmitActivity extends Activity implements View.OnClickListener, On
         rv_submit.setAdapter(submitAdapter);
         submitAdapter.setOnItemClickListener(this);
         submitManager = new SubmitManager(this);
+        userInfo = getSharedPreferences("userInfo", MODE_PRIVATE);
+        phone_number = userInfo.getString("phone_number", "");
     }
 
     private void setOnClickListener() {
@@ -73,6 +75,10 @@ public class SubmitActivity extends Activity implements View.OnClickListener, On
                 finish();
                 break;
             case R.id.bt_submit:
+                if(phone_number.length() == 0){
+                    Toast.makeText(this, "还没登录呢，不能发布信息", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 SubmitInfo submitInfo = new SubmitInfo();
                 submitInfo.setPhone_number(phone_number);
                 submitInfo.setNickname(userInfo.getString("nickname", ""));
@@ -97,8 +103,6 @@ public class SubmitActivity extends Activity implements View.OnClickListener, On
 
     @Override
     public void onItemClick(View view, int position) {
-        userInfo = getSharedPreferences("userInfo", MODE_PRIVATE);
-        phone_number = userInfo.getString("phone_number", "");
         timeStamp = System.currentTimeMillis();
         ChooseUserHeadDialogUtil.showSelectSubmitDialog(this, phone_number, timeStamp);
     }
